@@ -1,0 +1,83 @@
+.profile {
+  width: 180px;              /* bigger size */
+  height: 180px;             /* same as width */
+  border-radius: 50%;
+
+  object-fit: cover;         /* fills circle properly */
+  object-position: center;   /* keeps face centered */
+
+  border: 5px solid white;   /* clean border */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+  display: block;
+  margin: 0 auto 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    transition: 0.3s;
+}
+
+.light {
+    background: #f4f4f4;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1e293b;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #3b82f6;
+}
+
+button {
+    padding: 10px 20px;
+    background: #06b6d4;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3b82f6;
+}
