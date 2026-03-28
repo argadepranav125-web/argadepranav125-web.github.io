@@ -1,0 +1,112 @@
+[index.html](https://github.com/user-attachments/files/26323256/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="og6tsoXUuohWlLYwZyw2vD4VAqjy6wlUFq2EXhZCPbU" />
+<meta charset="UTF-8">
+<title>Pranav Argade | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Pranav</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button onclick="toggleMode()">🌙</button>
+    </div>
+</nav>
+
+<!-- Hero -->
+<header>
+    <img src="pranav_profile.jpeg" alt="Profile Photo" class="profile">
+    <h1>Pranav Ashok Argade 👋</h1>
+    <p>Aspiring AI Engineer | IoT Enthusiast</p>
+</header>
+
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a highly creative student passionate about electronics and innovation since childhood. 
+        I have built multiple projects before and after 12th grade, earning medals and certificates. 
+        Currently, I am working on advanced projects including a patent-level idea focused on helping blind students.
+        I have strong hands-on experience with ESP-based systems and enjoy turning ideas into real-world solutions.
+    </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">Python</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">C (Basic)</div>
+        <div class="card">ESP32 / IoT</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Refraction for Blind Students</h3>
+            <p>A patent-level project designed to help visually impaired students understand light refraction using practical models.</p>
+        </div>
+
+        <div class="card">
+            <h3>ESP32 Based Projects</h3>
+            <p>Developed multiple automation systems using ESP modules for real-world applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>Academic Projects</h3>
+            <p>Completed two major projects with O grade, focusing on innovation and practical implementation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements -->
+<section>
+    <h2>Achievements</h2>
+    <p>🏆 Won medals and certificates for project-based competitions</p>
+    <p>🏆 Consistently performed in hands-on technical work</p>
+</section>
+
+<!-- Education -->
+<section>
+    <h2>Education</h2>
+    <p><strong>MIT Academy of Engineering, Alandi</strong></p>
+    <p>First Year B.Tech (Information Technology)</p>
+</section>
+
+<!-- Career Goal -->
+<section>
+    <h2>Career Goal</h2>
+    <p>
+        To become a skilled AI/ML Engineer, achieve excellence with a CGPA above 9, 
+        and secure a high-impact role in the tech industry with strong innovation contributions.
+    </p>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: argadepranav125@gmail.com</p>
+    <p>Phone: 9730616440</p>
+    <p>GitHub: Coming Soon</p>
+    <button onclick="showMessage()">Let's Connect</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
